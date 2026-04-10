@@ -18,7 +18,7 @@ const NavItem = ({ icon: Icon, label, active, onClick }) => {
 
 
 const navItems = [
-    { label: "Trending", icon: Flame, path: '/trending' },
+    { label: "Trending", icon: Flame, path: '/' },
     { label: "Memes", icon: Smile },
     { label: "Cinema", icon: Clapperboard, path: "/cinema" },
     { label: "Sports", icon: Trophy },

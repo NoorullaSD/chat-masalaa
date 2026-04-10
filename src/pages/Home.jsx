@@ -27,16 +27,11 @@ const Home = () => {
 
     return (
         <div className="home-container container-fluid">
-
             {/* 🔥 HEADER SECTION */}
-            <div className="home-header d-flex justify-content-between align-items-center">
-                <div>
-                    <h2 className="home-title">🔥 Trending Memes</h2>
-                    <p className="home-subtitle">Stay updated with viral meme news</p>
-                </div>
+            <div>
+                <h2 className="home-title">🔥 Trending Memes</h2>
+                <p className="home-subtitle">Stay updated with viral meme news</p>
             </div>
-
-
 
             {/* 🔥 CONTENT */}
             {loading ? (

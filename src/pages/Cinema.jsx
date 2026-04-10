@@ -24,10 +24,8 @@ const Cinema = () => {
     }, []);
 
     return (
-        <div className="cinema-page">
-
-            {/* 🔥 Header */}
-            <div className="d-flex justify-content-between align-items-center mb-4">
+        <div className="cinema-page container-fluid">
+            <div className="d-flex justify-content-between align-items-center mb-4 ">
                 <h2 className="cinema-title text-white m-0">
                     🎬 Cinema Memes
                 </h2>
@@ -35,8 +33,6 @@ const Cinema = () => {
                     {cinemaMemes.length} results
                 </span>
             </div>
-
-            {/* 🔥 Content */}
             {loading ? (
                 <SkeletonGrid />
             ) : cinemaMemes.length > 0 ? (

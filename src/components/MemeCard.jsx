@@ -43,8 +43,6 @@ const MemeCard = ({ meme, onLike }) => {
                         <div className="meme-footer">
                             {meme.likes} likes
                         </div>
-
-
                     </div>
 
                     <MessageCircle className="icon" />

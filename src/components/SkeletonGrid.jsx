@@ -5,7 +5,7 @@ const SkeletonGrid = ({ count = 6 }) => {
     return (
         <div className="skeleton-grid-wrapper">
 
-            <div className="skeleton-grid">
+            <div className="skeleton-grid" style={{ width: 1320 }}>
                 {[...Array(count)].map((_, index) => (
                     <div
                         key={index}
