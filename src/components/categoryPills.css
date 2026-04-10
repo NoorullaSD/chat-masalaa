@@ -1,0 +1,50 @@
+/* 🔥 WRAPPER */
+.category-wrapper {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* 🔥 SCROLL CONTAINER */
+.category-scroll {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scrollbar-width: none;
+}
+
+.category-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* 🔥 PILL BASE */
+.category-pill {
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+
+    color: #A0A0A0;
+    background: #1A1A1A;
+    border: 1px solid #2A2A2A;
+
+    transition: all 0.3s ease;
+}
+
+/* 🔥 HOVER EFFECT */
+.category-pill:hover {
+    color: #ffffff;
+    background: #2A2A2A;
+    transform: scale(1.05);
+}
+
+/* 🔥 ACTIVE STATE (PREMIUM) */
+.category-pill.active {
+    color: #FF3B3B;
+    background: rgba(255, 59, 59, 0.1);
+    border: 1px solid rgba(255, 59, 59, 0.3);
+
+    box-shadow: 0 0 12px rgba(255, 59, 59, 0.25);
+}

@@ -1,0 +1,30 @@
+/* 🔥 WRAPPER (ALIGN WITH LAYOUT) */
+.skeleton-grid-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skeleton-grid {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+/* 🔥 STAGGER ANIMATION */
+.skeleton-item {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeUp 0.4s ease forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,35 @@
+/* 🔥 Page Background */
+.category-page {
+    background-color: #0f0f0f;
+    min-height: 100vh;
+}
+
+/* 🔥 Title */
+.category-title {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* 🔥 Meme Card Wrapper (optional spacing tweak) */
+.meme-card-wrapper {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 🔥 Hover Effect */
+.meme-card-wrapper:hover {
+    transform: translateY(-5px);
+}
+
+/* 🔥 Empty State */
+.empty-text {
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 40px;
+}
+
+/* 🔥 Responsive tweaks */
+@media (max-width: 576px) {
+    .category-title {
+        font-size: 18px;
+    }
+}

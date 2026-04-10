@@ -1,0 +1,36 @@
+/* 🔥 Page Background */
+.cinema-page {
+    background-color: #0f0f0f;
+    min-height: 100vh;
+}
+
+/* 🔥 Title */
+.cinema-title {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* 🔥 Card Wrapper */
+.cinema-card-wrapper {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* 🔥 Hover Effect */
+.cinema-card-wrapper:hover {
+    transform: translateY(-6px) scale(1.01);
+}
+
+/* 🔥 Empty State */
+.empty-state {
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* 🔥 Mobile */
+@media (max-width: 576px) {
+    .cinema-title {
+        font-size: 18px;
+    }
+}

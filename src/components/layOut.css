@@ -1,0 +1,45 @@
+/* 🔥 ROOT APP BACKGROUND */
+.app-layout {
+    background: radial-gradient(circle at top, #111 0%, #0D0D0D 60%);
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+/* 🔥 MAIN SECTION */
+.main-container {
+    padding-top: 80px;
+    /* space for navbar */
+    display: flex;
+    justify-content: center;
+}
+
+/* 🔥 CONTENT WRAPPER */
+.content-wrapper {
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px 24px;
+}
+
+/* 🔥 OPTIONAL: GLASS CONTAINER EFFECT */
+.content-wrapper {
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+}
+
+/* 🔥 SMOOTH PAGE LOAD */
+.content-wrapper {
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
